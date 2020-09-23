@@ -12,7 +12,7 @@ export default function Container() {
 <div className="col-lg-6 padding-right-2 ">
 <h1 className="font-4 font-white font-500 start-xs margin-bottom-1">Araç kiralamak ne kolaymış!</h1>
 <p className="font-1 font-white font-normal start-xs margin-bottom-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-<div className="row margin-bottom-1">
+<div className="row margin-bottom-2">
 <h3 className="font-3 font-white font-normal margin-right-1">4.5/5</h3>
 <Stars count={3}></Stars>
 <h3 className="font-3 font-white font-normal ">12.065 Kişi Oyladı.</h3>

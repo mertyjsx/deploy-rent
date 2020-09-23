@@ -17,7 +17,8 @@ import "./Footer.style.css";
 
 function Footer() {
   return (
-    <div className="footer row">
+  
+    <div className="footer row margin-top-4">
       <div className="footer-top row">
         <div className="footer-top-left row">
           <img src={companyLogo} />

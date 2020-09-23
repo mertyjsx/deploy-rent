@@ -38,7 +38,9 @@ const cars = [
 
 function CarCardHome() {
   return (
-    <div className="containerCenter row">
+
+<div className="center-xs margin-top-3 margin-bottom-4">
+    <div className="container containerCenter row">
       {cars.map((car) => (
         <CarCard
           price={car.price}
@@ -48,6 +50,7 @@ function CarCardHome() {
           image={car.image}
         />
       ))}
+    </div>
     </div>
   );
 }

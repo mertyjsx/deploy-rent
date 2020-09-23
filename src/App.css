@@ -12,6 +12,9 @@ align-self: center;
   padding:10px 20px
   
 }
+.background-white{
+  background-color: white;
+}
 
 
 .containerCenter{
@@ -1110,9 +1113,7 @@ color:#0081A7
 
 }
 @media only screen and (max-width: 1000px) {   
-body{
-  font-size: 12px;
-}
+
    
   .visibleAfterMd{
       display: none;
@@ -1126,11 +1127,10 @@ body{
 }
 
 @media only screen and (max-width: 600px) {   
-  body{
-    font-size: 10px;
-  }
-     
-  
+ 
+html{
+  font-size: 14px;
+}  
     
   
   }

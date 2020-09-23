@@ -7,8 +7,8 @@ import vites from "../../assets/svg/vites.svg";
 
 function CarCard({ name, driverAge, licenceYear, price, image }) {
   return (
-    <div className="col-lg-3 col-md-4 col-xs-12">
-      <div className="car-card">
+    <div className="col-lg-3 col-md-4 col-xs-12 margin-top-1 margin-bottom-1">
+      <div className="car-card shadow box">
         <img src={image} />
         <div className="car-card-details">
           <h2>{name}</h2>
@@ -24,7 +24,8 @@ function CarCard({ name, driverAge, licenceYear, price, image }) {
           </div>
 
           <div className="car-card-options">
-            <div className="car-card-option fuel">
+            <div className="car-card-option fuel ">
+           
               <img src={fuel} />
             </div>
             <div className="car-card-option">
@@ -43,7 +44,7 @@ function CarCard({ name, driverAge, licenceYear, price, image }) {
               <p>Günlük Fiyat</p>
               <strong>{price}₺</strong>
             </div>
-            <button>Hemen Kirala</button>
+            <button className="background-white">Hemen Kirala</button>
           </div>
         </div>
       </div>
