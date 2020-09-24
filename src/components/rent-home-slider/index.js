@@ -8,7 +8,7 @@ import bmw from "../../assets/svg/bmw.svg"
 import audi from "../../assets/svg/auid.svg"
 import wolk from "../../assets/svg/wolk.svg"
 import TitleComponent from "../titleComponent"
-import "./.css"
+
 export default class MultipleItems extends Component {
   render() {
     const settings = {

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./.css"
+import "./a.css"
 export default function sliderItems({logo,brand,selected}) {
     return (
         <div className={`box shadow ${!selected?'brandBox':"brandBox-selected"} center-xs margin-top-1 margin-bottom-1 margin-right-1`}>
