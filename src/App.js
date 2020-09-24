@@ -17,7 +17,7 @@ function App() {
       <HomepageSelect></HomepageSelect>
       <Info></Info>
       <Boxes></Boxes>
-     
+     <Slider></Slider>
       <CarCardHome></CarCardHome>
       <Footer></Footer>
     </div>
