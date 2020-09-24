@@ -8,7 +8,8 @@ import Boxes from "./components/home-page-boxes/index";
 import Slider from "./components/rent-home-slider/index";
 import CarCardHome from "./components/homepage-carcard/CarCardHome";
 import Footer from "./components/Footer/Footer";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <div className="App ">
