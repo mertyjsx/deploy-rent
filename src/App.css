@@ -37,6 +37,28 @@ place-items: center ;
   
 }
 
+.active{
+  
+  fill: white;
+}
+.notactive{
+
+  fill: #023047;
+
+}
+
+
+
+
+
+
+.back-lacivert{
+background-color: #023047;
+
+}
+.back-white{
+  background-color: white;
+}
 
 .drop-btn-1{
 width: 60px;

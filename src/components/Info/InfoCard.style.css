@@ -79,6 +79,13 @@
   background-color: #0081A7;
   border-radius: 8px;
 }
+.logoContainer:hover{
+  background-color: #0081A7 !important;
+}
+.logoContainer:hover .notactive{
+  fill: white !important;
+}
+
 .logoContainer{
   width: 4vw;
   height: 4vw;
