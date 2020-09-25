@@ -39,6 +39,15 @@
   display: flex;
   width: 100%;
 }
+.footer-top-left-logos-img {
+  margin-right: 15px;
+  cursor: pointer;
+  fill: #023047;
+}
+.footer-top-left-logos-img:hover {
+  margin-right: 15px;
+  fill: #0081a7;
+}
 .footer-top-left-logos > img {
   margin-right: 15px;
 }
@@ -70,7 +79,13 @@
 }
 .footer-top-right-mobil-appstores {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin-top: 10px;
+}
+
+.footer-top-right-mobil-appstores > img {
+  cursor: pointer;
 }
 .footer-top-right-mobil {
   display: flex;
@@ -93,6 +108,9 @@
   width: 76%;
   justify-content: space-evenly;
   font-size: 0.875rem;
+}
+.footer-bottom-top > small {
+  cursor: pointer;
 }
 .footer-bottom-bottom {
   margin-top: 30px;

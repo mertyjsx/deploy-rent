@@ -1,23 +1,22 @@
 import React from "react";
 
-import facebookLogo from "../../assets/svg/facebook.svg";
-import twitterLogo from "../../assets/svg/twitter.svg";
-import instagramLogo from "../../assets/svg/instagram.svg";
-import whatsappLogo from "../../assets/svg/whatsapp.svg";
-import youtubeLogo from "../../assets/svg/youtube.svg";
-import linkedinLogo from "../../assets/svg/linkedin.svg";
+import { ReactComponent as FacebookSvg } from "../../assets/svg/facebook.svg";
+import { ReactComponent as InstagramSvg } from "../../assets/svg/instagram.svg";
+import { ReactComponent as WhatsappSvg } from "../../assets/svg/whatsapp.svg";
+import { ReactComponent as YoutubeSvg } from "../../assets/svg/youtube.svg";
+import { ReactComponent as LinkInSvg } from "../../assets/svg/linkedin.svg";
 import mastercardLogo from "../../assets/svg/mastercard.svg";
 import maestroLogo from "../../assets/svg/maestro.svg";
 import visaLogo from "../../assets/svg/visa.svg";
 import companyLogo from "../../assets/svg/company.svg";
 import applestore from "../../assets/svg/applestore.svg";
 import googleplay from "../../assets/svg/googleplay.svg";
+import { ReactComponent as TwitterSvg } from "../../assets/svg/twitter.svg";
 
 import "./Footer.style.css";
 
 function Footer() {
   return (
-  
     <div className="footer row margin-top-4">
       <div className="footer-top row">
         <div className="footer-top-left row">
@@ -28,12 +27,21 @@ function Footer() {
             vehicula at pharetra ac, mattis at lectus.
           </small>
           <div className="footer-top-left-logos row">
-            <img src={facebookLogo} />
-            <img src={instagramLogo} />
-            <img src={twitterLogo} />
-            <img src={whatsappLogo} />
-            <img src={youtubeLogo} />
-            <img src={linkedinLogo} />
+            <FacebookSvg
+              className="footer-top-left-logos-img"
+              title="Facebook"
+            />
+            <InstagramSvg
+              className="footer-top-left-logos-img"
+              title="Instagram"
+            />
+            <TwitterSvg className="footer-top-left-logos-img" title="Twitter" />
+            <WhatsappSvg
+              className="footer-top-left-logos-img"
+              title="Whatsapp"
+            />
+            <YoutubeSvg className="footer-top-left-logos-img" title="Youtube" />
+            <LinkInSvg className="footer-top-left-logos-img" title="LinkedIn" />
           </div>
           <div className="footer-top-left-logos footer-top-left-payment row">
             <img src={mastercardLogo} />
@@ -67,7 +75,8 @@ function Footer() {
         <div className="footer-top-right-mobil row">
           <strong>Mobil Application</strong>
           <div className="footer-top-right-mobil-appstores">
-            <img src={applestore} />
+            <img src={googleplay} title="Google Play" alt="" />
+            <img src={applestore} title="Apple Store" alt="" />
           </div>
         </div>
       </div>
