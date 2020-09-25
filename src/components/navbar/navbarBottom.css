@@ -1,8 +1,10 @@
-.navbarBottomContainer{
-
-height: 60px;
-background-color: white;
-} 
-.logo-position{
-    padding-right: 20px;
+.navbarBottomContainer {
+  height: 60px;
+  background-color: white;
+}
+.logo-position {
+  padding-right: 20px;
+}
+.active {
+  border-bottom: 3px solid #0081a7;
 }
