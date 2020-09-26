@@ -37,6 +37,13 @@ place-items: center ;
   
 }
 
+img:hover{
+  cursor: pointer;
+}
+.cursor:hover{
+  cursor: pointer;
+}
+
 .active{
   
   fill: white;
@@ -221,6 +228,11 @@ li:hover{
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   flex-direction: row-reverse;
+}
+
+
+.padding-3{
+  padding: 20px;
 }
 
 .col.reverse {
@@ -1148,7 +1160,12 @@ color:#0081A7
 }
 
 @media only screen and (max-width: 600px) {   
- 
+  .footer-top-left {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+    flex: 0.35 1;
+}
 html{
   font-size: 14px;
 }  

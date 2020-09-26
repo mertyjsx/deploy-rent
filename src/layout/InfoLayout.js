@@ -70,7 +70,7 @@ increaseLevel(2)
 
 
   return (
-    <div className="containerCenter  margin-top-4 "   ref={scrollEl}>
+    <div className="containerCenter  margin-top-4 padding-3"   ref={scrollEl}>
 
         <Title title="4 Aşamada Araba Kirala" p="  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua"></Title>

@@ -27,7 +27,7 @@ const NavbarBottom = () => {
               Kiralama Kampanyaları
             </li>
             <li
-              className="center-xs box-large font-bold"
+              className="center-xs box-large active"
               onClick={setActiveLink}
             >
               Araçlarımız

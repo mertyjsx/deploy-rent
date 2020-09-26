@@ -16,6 +16,11 @@ background-color: #023047;
 
 }
 
+.top-list:hover{
+  border-bottom: 1px solid white;
+}
+
+
 .dropbtn {
    border-left: 1px solid #2c5d75;
    

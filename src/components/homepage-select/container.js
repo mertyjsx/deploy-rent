@@ -8,8 +8,16 @@ import SelectTable from "./select-form"
 export default function Container() {
     return (
         <div className="homepage-banner center-xs">
-            <div className="container row center-xs">
-<div className="col-lg-6 padding-right-2 ">
+            <div className="container row reverse center-xs">
+
+            <div className="col-lg-6 col-xs-12 col-md-12 select-table margin-top-2">
+
+<SelectTable></SelectTable>
+</div>
+
+
+
+<div className="col-lg-6 padding-right-2 margin-top-3 ">
 <h1 className="font-4 font-white font-500 start-xs margin-bottom-1">Araç kiralamak ne kolaymış!</h1>
 <p className="font-1 font-white font-normal start-xs margin-bottom-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 <div className="row margin-bottom-2">
@@ -49,10 +57,7 @@ export default function Container() {
 
 
 
-<div className="col-lg-6 col-xs-12 col-md-12 select-table margin-top-2">
 
-<SelectTable></SelectTable>
-</div>
 
             </div>
         </div>
